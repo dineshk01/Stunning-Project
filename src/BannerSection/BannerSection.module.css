@@ -1,0 +1,81 @@
+  .BannerPart {
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .BannerLeft {
+    width: 28%;
+  }
+  .BannerHead {
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    width: 335px;
+  }
+  .Title {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #5243c0;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+  }
+  .Desc {
+    color: rgb(102, 100, 100);
+  }
+  .BannerRight {
+    width: 65%;
+  }
+  .BannerImg {
+    width: 100%;
+  }
+  .BtnWrapper {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .AccountBtn {
+    color: #fff;
+    width: 75px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #5243c0;
+    padding: 12px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .ArrowUp {
+    width: 40px;
+    height: 40px;
+  }
+  @media (max-width: 600px) {
+    .BannerPart {
+      display: block;
+      margin-left: 16px;
+      margin-top: 25px;
+    }
+    .BannerLeft {
+      width: 100%;
+    }
+    .BannerRight {
+      width: 100%;
+    }
+    .BannerHead {
+      font-size: 40px;
+      width: 200px;
+      margin: 0;
+    }
+    .Title {
+      right: -25px;
+      bottom: 10px;
+    }
+    .Desc {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  }
+  

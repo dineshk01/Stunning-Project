@@ -1,0 +1,16 @@
+.Navbar {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+  }
+  .Navbar:hover {
+    color: black;
+    border-bottom: 2px solid #392ca0;
+  }
+  .Active {
+    color: black;
+    border-bottom: 2px solid #392ca0;
+  }
+  
